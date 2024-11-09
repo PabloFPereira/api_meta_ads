@@ -168,4 +168,4 @@ if __name__ == "__main__":
     specific_date = "2024-10-30" 
     
     insights = graph_api.get_insights(ad_acc, specific_date=specific_date)
-    graph_api.save_to_json(insights, output_file="API_FINAL/SAIDAS/SAIDA_API_PERFORMANCE_VIVARA_&_MGI.txt")
+    graph_api.save_to_json(insights, output_file="api_meta.txt")
