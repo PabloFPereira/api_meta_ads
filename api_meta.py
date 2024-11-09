@@ -162,7 +162,7 @@ class GraphAPI:
 
 if __name__ == "__main__":
     fb_api = open("Token/fb_token.py").read().strip()
-    ad_acc = "2338511086377745"
+    ad_acc = "xxxxxxxxxxxxxxxxxxx" # COLOQUE SUA CONTA DE ANUNCIO AQUI
 
     graph_api = GraphAPI(fb_api)
     specific_date = "2024-10-30" 
